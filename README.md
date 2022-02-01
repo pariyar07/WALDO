@@ -1,2 +1,2 @@
 # Waldo
- Component Library
+ UI Component Library
