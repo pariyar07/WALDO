@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* block */
+.badge-container-block{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.button-primary{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 0);
+    color:rgb(0, 0, 0)
+}
+
+.button-secondary{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(83, 130, 240);
+    color:rgb(255, 255, 255)
+}
+
+.button-success{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(96, 208, 127);
+    color:rgb(255, 255, 255)
+}
+
+.button-danger{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(255, 82, 79);
+    color:rgb(255, 255, 255)
+}
+
+.button-warning{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(251, 215, 87);
+    color:rgb(0, 0, 0)
+}
+
+.button-default{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0)
+}
+
+.button-link{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    background-color: rgb(170, 93, 239);
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+/* outlined */
+.badge-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.button-outlined-primary{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 0);
+    color:rgb(255, 255, 0);
+    background: none;
+}
+
+.button-outlined-secondary{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(83, 130, 240);
+    color: rgb(83, 130, 240);
+    background: none;
+}
+
+.button-outlined-success{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 208, 127);
+    color:rgb(96, 208, 127);
+    background: none;
+}
+
+.button-outlined-danger{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 82, 79);
+    color:rgb(255, 82, 79);
+    background: none;
+}
+
+.button-outlined-warning{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(251, 215, 87);
+    color:rgb(251, 215, 87);
+    background: none;
+}
+
+.button-outlined-default{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    color:rgb(255, 255, 255);
+    background: none;
+}
+
+.button-outlined-link{
+    border: none;
+    font-size: 1.2rem;
+    padding: 0.4rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid rgb(170, 93, 239);
+    color:rgb(170, 93, 239);
+    text-decoration: none;
+    background: none;
+}
