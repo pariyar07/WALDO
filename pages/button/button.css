@@ -18,151 +18,135 @@ body {
     gap: 2rem;
 }
 
-/* block */
-.badge-container-block{
+/* btn-primary */
+.btn-container{
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
-.button-primary{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 0);
-    color:rgb(0, 0, 0)
-}
-
-.button-secondary{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    background-color: rgb(83, 130, 240);
-    color:rgb(255, 255, 255)
-}
-
-.button-success{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    background-color: rgb(96, 208, 127);
-    color:rgb(255, 255, 255)
-}
-
-.button-danger{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    background-color: rgb(255, 82, 79);
-    color:rgb(255, 255, 255)
-}
-
-.button-warning{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    background-color: rgb(251, 215, 87);
-    color:rgb(0, 0, 0)
-}
-
-.button-default{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    color:rgb(0, 0, 0)
-}
-
-.button-link{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    background-color: rgb(170, 93, 239);
-    color:rgb(255, 255, 255);
+.btn.btn-primary{
+    background-color: white;
+    color:rgb(0, 0, 0);
+    padding: 0.5rem 2rem;
     text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
 }
 
-/* outlined */
-.badge-container{
+.btn.btn-primary.btn-solid:hover{
+    background-color: rgb(77, 77, 77);
+    color:rgb(255, 255, 255)
+}
+
+.btn.btn-primary.btn-outline{
+    background: none;
+    border: 1px solid white;
+    color: white;
+}
+
+.btn.btn-primary.btn-outline:hover{
+    border: 1px solid rgb(77, 77, 77);
+    background-color: rgb(77, 77, 77);
+    color:rgb(255, 255, 255);
+}
+
+.btn.btn-primary.btn-icon{
+    background: none;
+    color: white;
+}
+
+.btn.btn-primary.btn-icon:hover{
+    color: rgb(77, 77, 77);
+}
+
+.btn.btn-primary.btn-text-icon:hover{
+    background-color: rgb(77, 77, 77);
+    color: white;
+}
+
+.btn.btn-primary.btn-link{
+    background: none;
+    color: white;
+    text-decoration: underline;
+}
+
+.btn.btn-primary.btn-link:hover{
+    color: rgb(77, 77, 77);
+}
+
+/* btn-secondary */
+.btn.btn-secondary{
+    background-color: #ffff00;
+    color:rgb(0, 0, 0);
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.btn.btn-secondary.btn-solid:hover{
+    background-color: #caca00;
+    color:rgb(0, 0, 0)
+}
+
+.btn.btn-secondary.btn-outline{
+    background: none;
+    border: 1px solid #ffff00;
+    color: #ffff00;
+}
+
+.btn.btn-secondary.btn-outline:hover{
+    border: 1px solid #ffff00;
+    background-color: #ffff00;
+    color:rgb(0, 0, 0);
+}
+
+.btn.btn-secondary.btn-icon{
+    background: none;
+    color: #ffff00;
+}
+
+.btn.btn-secondary.btn-icon:hover{
+    color: #caca00;
+}
+
+.btn.btn-secondary.btn-text-icon:hover{
+    background-color: #caca00;
+    color: rgb(0, 0, 0);
+}
+
+.btn.btn-secondary.btn-link{
+    background: none;
+    color: #ffff00;
+    text-decoration: underline;
+}
+
+.btn.btn-secondary.btn-link:hover{
+    color: #caca00;
+}
+
+/* btn-floating */
+.btn.btn-floating{
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
-}
-
-.button-outlined-primary{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(255, 255, 0);
-    color:rgb(255, 255, 0);
-    background: none;
-}
-
-.button-outlined-secondary{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(83, 130, 240);
-    color: rgb(83, 130, 240);
-    background: none;
-}
-
-.button-outlined-success{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(96, 208, 127);
-    color:rgb(96, 208, 127);
-    background: none;
-}
-
-.button-outlined-danger{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(255, 82, 79);
-    color:rgb(255, 82, 79);
-    background: none;
-}
-
-.button-outlined-warning{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(251, 215, 87);
-    color:rgb(251, 215, 87);
-    background: none;
-}
-
-.button-outlined-default{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(255, 255, 255);
-    color:rgb(255, 255, 255);
-    background: none;
-}
-
-.button-outlined-link{
-    border: none;
-    font-size: 1.2rem;
-    padding: 0.4rem 1.2rem;
-    border-radius: 5px;
-    border: 1px solid rgb(170, 93, 239);
-    color:rgb(170, 93, 239);
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
     text-decoration: none;
-    background: none;
+    width: 4rem;
+    height: 4rem;
+}
+
+.btn.btn-floating:hover{
+    background-color: rgb(77, 77, 77);
+}
+
+.btn.btn-floating>.icon{
+    color:rgb(0, 0, 0);
+    font-size: 3rem;
+}
+
+.btn.btn-floating>.icon:hover{
+    color:rgb(255, 255, 255)
 }
