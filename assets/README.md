@@ -1,2 +1,0 @@
-# Waldo
- UI Component Library
