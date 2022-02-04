@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    min-height: 100vh;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+/* navbar */
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.nav-icon {
+    width: 100px;
+    margin-left: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: flex-end;
+    list-style: none;
+    gap: 3rem;
+    margin: 0px 3rem;
+}
+
+/* anchor-tags */
+a {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: relative;
+}
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    list-style: none;
+    margin-top: 7rem;
+    min-height: 100vh;
+    position: absolute;
+    overflow-y: scroll;
+    top: 0;
+    bottom: 0;
+}
+
+.aside-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem 0;
+    font-size: 1rem;
+}
+
+.aside-list>h1{
+    background: linear-gradient(to right, #2b2b2b 0%, #ffffff 95%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-size: 1.8rem;
+}
+
+.main-container{
+    display: flex;
+    margin-top: 7rem;
+    padding: 0 2rem;
+    position: absolute;
+    width: 80%;
+    right: 0;
+    border-left: 1px solid rgb(95, 95, 95);
+}
