@@ -107,11 +107,11 @@ body {
 }
 
 .form-control.success input{
-    color: #2ecc71;
+    border: 1px solid #2ecc71;
 }
 
 .form-control.error input{
-    color: #e74c3c;
+    border: 1px solid #e74c3c;
 }
 
 .form-control i{
