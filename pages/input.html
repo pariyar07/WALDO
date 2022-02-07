@@ -11,48 +11,90 @@
 </head>
 
 <body>
-    <div class="textarea-container">
-        <textarea class="textarea" placeholder="Write something here..."></textarea>
-        <button class="btn-submit">Submit</button>
-    </div>
-
-    <!-- sign-in-form -->
-    <div class="sign-in-container">
-        <div class="header">
-            <h2>Sign-In</h2>
+    <nav class="navbar-content">
+        <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
+        <div class="nav-list">
+            <li><a href="">Home</a></li>
+            <li><a href="">Installation</a></li>
+            <li><a href="">Documentation</a></li>
+            <li><a href="">Contribute <i class="fab fa-github"></i></a></li>
         </div>
-        <form id="form" class="form">
-            <div class="form-control">
-                <label for="username">Username</label>
-                <input type="text" id="username" placeholder="Username">
-                <i id="suc" class="fas fa-check"></i>
-                <i id="err" class="fas fa-exclamation-circle"></i>
-                <small>Message</small>
+    </nav>
+        <aside id="aside-navbar">
+            <header>Input</header>
+            <ul>
+                <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+                <li>
+                    <a class="nav-link" href="./alert.html">Alert</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="./badge.html">Badge</a>
+                </li>
+                <li><a class="nav-link" href="./button.html">Button</a></li>
+                <li><a class="nav-link" href="./card.html">Card</a></li>
+                <li>
+                    <a class="nav-link" href="./image.html">Image</a>
+                </li>
+                <li><a class="nav-link" href="">Input</a></li>
+                <li><a class="nav-link" href="#">Text Utilities</a></li>
+                <li><a class="nav-link" href="#">Lists</a></li>
+                <li><a class="nav-link" href="#">Navigation</a></li>
+                <li>
+                    <a class="nav-link" href="#">Modal</a>
+                </li>
+                <li><a class="nav-link" href="#">Rating</a></li>
+                <li>
+                    <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
+                </li>
+                <li><a class="nav-link" href="#">Simplified Grid</a></li>
+                <li><a class="nav-link" href="#">Navigation</a></li>
+                <li><a class="nav-link" href="#">Slider</a></li>
+            </ul>
+        </aside>
+        <main id="main-doc">
+            <div class="textarea-container">
+                <textarea class="textarea" placeholder="Write something here..."></textarea>
+                <button class="btn-submit">Submit</button>
             </div>
-            <div class="form-control">
-                <label for="email">Email</label>
-                <input type="email" id="email" placeholder="Email">
-                <i id="suc" class="fas fa-check"></i>
-                <i id="err" class="fas fa-exclamation-circle"></i>
-                <small>Message</small>
+        
+            <!-- sign-in-form -->
+            <div class="sign-in-container">
+                <div class="header">
+                    <h2>Sign-In</h2>
+                </div>
+                <form id="form" class="form">
+                    <div class="form-control">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" placeholder="Username">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="Email">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" placeholder="Password">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <div class="form-control">
+                        <label for="checkpassword">Check Password</label>
+                        <input type="password" id="checkpassword" placeholder="Check Password">
+                        <i id="suc" class="fas fa-check"></i>
+                        <i id="err" class="fas fa-exclamation-circle"></i>
+                        <small>Message</small>
+                    </div>
+                    <button id="sign-btn">Sign-In</button>
+                </form>
             </div>
-            <div class="form-control">
-                <label for="password">Password</label>
-                <input type="password" id="password" placeholder="Password">
-                <i id="suc" class="fas fa-check"></i>
-                <i id="err" class="fas fa-exclamation-circle"></i>
-                <small>Message</small>
-            </div>
-            <div class="form-control">
-                <label for="checkpassword">Check Password</label>
-                <input type="password" id="checkpassword" placeholder="Check Password">
-                <i id="suc" class="fas fa-check"></i>
-                <i id="err" class="fas fa-exclamation-circle"></i>
-                <small>Message</small>
-            </div>
-            <button id="sign-btn">Sign-In</button>
-        </form>
-    </div>
+        </main>
 </body>
 <script src="./input.js"></script>
 </html>
