@@ -63,7 +63,7 @@ a {
 
 header {
     padding: 10px 30px;
-    background: linear-gradient(to right, #2b2b2b 0%, #ffffff 95%);
+    background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 1.8rem;
