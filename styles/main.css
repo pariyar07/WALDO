@@ -7,8 +7,10 @@
 @import "./button.css";
 @import "./card.css";
 @import "./image.css";
-@import "./image.css";
+@import "./input.css";
 @import "./documentation.css";
+@import "./install.css";
+@import "./index.css";
 
 *,
 ::before,
