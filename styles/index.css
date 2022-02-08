@@ -99,11 +99,14 @@ body {
     color: white;
     background-color: rgb(0, 0, 0);
     padding: 0.7rem 5rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: white;
+    border: 1px solid white;
     border-image: initial;
     border-radius: 50px;
+    transition: 0.5s;
+}
+.main-section-buttons > button:hover{
+    background-color: #505050;
+    border: 1px solid #505050;
 }
 
 .main-section-right > img {
@@ -142,6 +145,11 @@ body {
     border-color: white;
     border-image: initial;
     border-radius: 50px;
+    transition: 0.5s;
+}
+.footer-section-top > button:hover{
+    background-color: #505050;
+    border: 1px solid #505050;
 }
 
 .footer-section-middle {
@@ -155,6 +163,9 @@ body {
     flex-direction: column;
     margin-top: 5rem;
     gap: 2rem;
+}
+.footer-section-middle-left>p>a:hover{
+    color: #505050;
 }
 
 .footer-section-middle-left-mail {
@@ -176,6 +187,13 @@ body {
     gap: 2rem;
 }
 
+.footer-section-middle-right-one>li>a:hover{
+    color: #505050;
+}
+.footer-section-middle-right-two>li>a:hover{
+    color: #505050;
+}
+
 .footer-section-middle-right-two {
     display: flex;
     flex-direction: column;
@@ -191,6 +209,9 @@ body {
     color: rgb(124, 124, 124);
     list-style: none;
     gap: 2rem;
+}
+.footer-section-bottom>li:hover{
+    color: white;
 }
 
 /* anchor tags */
