@@ -1,0 +1,25 @@
+.navbar-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(0, 0, 0);
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.nav-icon {
+    width: 100px;
+    margin-left: 1rem;
+}
+
+.nav-list {
+    display: flex;
+    font-size: 1.2rem;
+    align-items: flex-end;
+    list-style: none;
+    gap: 2rem;
+    margin: 0px 3rem;
+}
