@@ -1,5 +1,9 @@
 .installation-content{
-    position: absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8rem;
 }
 
 .installation-content>header{

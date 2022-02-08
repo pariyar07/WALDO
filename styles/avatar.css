@@ -1,31 +1,75 @@
 .avatar-container{
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-left: 15rem;
+    margin-top: 8rem;
+}
+
+.round-avatar,.square-avatar{
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 
-/* large */
-.avatar-large-image{
+/* round */
+.round-extra-large-image{
     width: 8rem;
     height: 8rem;
     background-color: white;
     border-radius: 50%;
 }
 
-/* medium */
-.avatar-medium-image{
-    width: 6.25rem;
-    height: 6.25rem;
+.round-large-image{
+    width: 7rem;
+    height: 7rem;
     background-color: white;
     border-radius: 50%;
 }
 
-/* small */
-.avatar-small-image{
+.round-medium-image{
+    width: 5.8rem;
+    height: 5.8rem;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.round-small-image{
     width: 3.5rem;
     height: 3.5rem;
     background-color: white;
     border-radius: 50%;
+}
+
+/* square */
+.square-extra-large-image{
+    width: 8rem;
+    height: 8rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.square-large-image{
+    width: 7rem;
+    height: 7rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.square-medium-image{
+    width: 5.8rem;
+    height: 5.8rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.square-small-image{
+    width: 3.5rem;
+    height: 3.5rem;
+    background-color: white;
+    border-radius: 5px;
 }
