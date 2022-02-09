@@ -6,8 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Installation</title>
+    <link rel="stylesheet" href="../styles/install.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -19,9 +21,40 @@
             <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
         </div>
     </nav>
-    <main class="installation-content">
-        <header>Installation</header>
-    </main>
+    <div class="installation-container">
+        <main class="installation-content">
+            <header>Installation Guide</header>
+            <div class="installation-row-content">
+                <h2>Introduction</h2>
+                <p>Welcome! Get started with <strong>WALDO</strong> and build web pages in no time. We provide the pre made
+                components to speed up your process. You just need to add our stylesheet to you HTML page and copy-paste
+                the HTML code given and customize your content.</p>
+            </div>
+            <div class="installation-row-content">
+                <h2>Quick Start</h2>
+                <p>To use this framework, you simply need to put the below link in your header file above all other style
+                sheets.</p>
+            </div>
+            <div class="code-container">
+                <code class="code-text">
+                    /* html */<br>
+                    <span><</span>link rel ="stylesheet" href = "https://waldo-ui.netlify.app/styles/main.css" />
+                </code>
+                <code class="code-text">
+                    /* CSS */<br>
+                    @import url("https://waldo-ui.netlify.app/styles/main.css")</code>
+            </div>
+            <div class="installation-row-content">
+                <h2>Customize</h2>
+                <p>Athough WALDO tries to implement its best but sometimes user wants their own styles dealing. For that you can simply add your own class to the existing classes.</p>
+            </div>
+            <div class="installation-row-content">
+                <h2>Hop On</h2>
+                <p>If you have copied the above link and pasted inside the head tag. You are now ready to make your website come to life, click on the button below to get started.</p>
+            </div>
+            <button class="installation-btn"><a href="../pages/documentation.html">Documentation</a></button>
+        </main>
+    </div>
 </body>
 
 </html>
