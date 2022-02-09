@@ -1,4 +1,5 @@
-# Waldo
+# WALDO
+
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/pariyar07)
 
 WALDO is a Component Library that makes your website come to life faster.
@@ -10,7 +11,7 @@ WALDO is a Component Library that makes your website come to life faster.
 Include CSS file mentioned in [installation section](https://github.com/pariyar07/WALDO) in your head tag of html file.
 You are ready to use this file.
 
-![image](https://user-images.githubusercontent.com/38321072/151476701-99afd08d-63cc-4bce-bd51-b413218bac09.png)
+![image](./assets/images/installation-page.mov)
 
 # Tech Stack
 - HTML
