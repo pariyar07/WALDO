@@ -11,7 +11,7 @@ WALDO is a Component Library that makes your website come to life faster.
 Include CSS file mentioned in [installation section](https://github.com/pariyar07/WALDO) in your head tag of html file.
 You are ready to use this file.
 
-![image](./assets/images/installation-page.mov)
+![preview](./assets/images/installation-page.mov)
 
 # Tech Stack
 - HTML
