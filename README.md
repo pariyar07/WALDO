@@ -8,10 +8,10 @@ WALDO is a Component Library that makes your website come to life faster.
 
 # Installation Steps
 
-Include CSS file mentioned in [installation section](https://github.com/pariyar07/WALDO) in your head tag of html file.
+Include CSS file mentioned in [installation section](https://waldo-ui.netlify.app/pages/install.html) in your head tag of html file.
 You are ready to use this file.
 
-![video](./assets/images/installation-page.mov)
+![video](./assets/images/installation-page.mp4)
 
 # Tech Stack
 - HTML
