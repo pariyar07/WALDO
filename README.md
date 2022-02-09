@@ -1,10 +1,9 @@
 # Waldo
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/pariyar07)
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/pariyar07) [![Made With Heart](https://img.shields.io/badge/Made%20With-Love-orange.svg)](https://github.com/pariyar07)
 
 WALDO is a Component Library that makes your website come to life faster.
 
-![image](https://user-images.githubusercontent.com/38321072/151476581-050ac5fa-98c7-4def-b396-6597460754ba.png)
+![image](./assets/images/WALDO-Homepage.png)
 
 # Installation Steps
 
