@@ -11,8 +11,6 @@ WALDO is a Component Library that makes your website come to life faster.
 Include CSS file mentioned in [installation section](https://waldo-ui.netlify.app/pages/install.html) in your head tag of html file.
 You are ready to use this file.
 
-![video](./assets/images/installation-page.mp4)
-
 # Tech Stack
 - HTML
 - CSS
