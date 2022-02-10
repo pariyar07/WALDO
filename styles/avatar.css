@@ -4,8 +4,8 @@
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    margin-left: 15rem;
-    margin-top: 8rem;
+    width: 900px;
+    margin-left: 5rem;
 }
 
 .round-avatar,.square-avatar{
@@ -17,28 +17,28 @@
 }
 
 /* round */
-.round-extra-large-image{
+.round-avatar .extra-large-image{
     width: 8rem;
     height: 8rem;
     background-color: white;
     border-radius: 50%;
 }
 
-.round-large-image{
+.round-avatar .large-image{
     width: 7rem;
     height: 7rem;
     background-color: white;
     border-radius: 50%;
 }
 
-.round-medium-image{
+.round-avatar .medium-image{
     width: 5.8rem;
     height: 5.8rem;
     background-color: white;
     border-radius: 50%;
 }
 
-.round-small-image{
+.round-avatar .small-image{
     width: 3.5rem;
     height: 3.5rem;
     background-color: white;
@@ -46,28 +46,28 @@
 }
 
 /* square */
-.square-extra-large-image{
+.square-avatar .extra-large-image{
     width: 8rem;
     height: 8rem;
     background-color: white;
     border-radius: 5px;
 }
 
-.square-large-image{
+.square-avatar .large-image{
     width: 7rem;
     height: 7rem;
     background-color: white;
     border-radius: 5px;
 }
 
-.square-medium-image{
+.square-avatar .medium-image{
     width: 5.8rem;
     height: 5.8rem;
     background-color: white;
     border-radius: 5px;
 }
 
-.square-small-image{
+.square-avatar .small-image{
     width: 3.5rem;
     height: 3.5rem;
     background-color: white;

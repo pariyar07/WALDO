@@ -1,23 +1,29 @@
-.badge-container{
+.badge.main-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
-    gap: 10rem;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
-    margin-left: 15rem;
-    margin-top: 8rem;
+    margin-left: 5rem;
+    width: 900px;
 }
 
-.badge-notification, .badge-mail, .badge-cart, .badge-avatar{
+.badge.num-notification, .badge.num-mail, .badge.num-cart, .badge.num-avatar{
     position: relative;
     display: inline-block;
 }
 
 /* badge-notification */
-.badge-notification>i{
+.badge.num-notification>i{
     font-size: 4rem;
+}
+
+.badge.num-container, .badge.profile-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
 }
 
 .badge-notification-count{
@@ -35,7 +41,7 @@
 }
 
 /* badge-mail */
-.badge-mail>i{
+.badge.num-mail>i{
     font-size: 4rem;
 }
 
@@ -54,7 +60,7 @@
 }
 
 /* badge-cart */
-.badge-cart>i{
+.badge.num-cart>i{
     font-size: 4rem;
 }
 
@@ -91,4 +97,32 @@
     width: 1.7rem;
     border: 2px solid black;
     border-radius: 50%;
+}
+
+/* activity-status */
+.badge.profile-success,.profile-error,.profile-warning,.profile-awol{
+    position: relative;
+}
+
+.badge-activity{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: absolute;
+    bottom: 5px;
+    right: 2px;
+}
+.badge.profile-success>.badge-activity{
+    background-color: greenyellow;
+}
+.badge.profile-error>.badge-activity{
+    background-color: #DC2625;
+}
+.badge.profile-warning>.badge-activity{
+    background-color: #F59E0B;
+}
+.badge.profile-awol>.badge-activity{
+    background-color: rgb(150, 150, 150);
 }

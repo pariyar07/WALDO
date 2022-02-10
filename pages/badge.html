@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <nav class="navbar-content">
         <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
@@ -19,59 +20,123 @@
             <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
         </div>
     </nav>
-        <aside id="aside-navbar">
-            <header>Badge</header>
-            <ul>
-                <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
-                <li>
-                    <a class="nav-link" href="./alert.html">Alert</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="">Badge</a>
-                </li>
-                <li><a class="nav-link" href="./button.html">Button</a></li>
-                <li><a class="nav-link" href="./card.html">Card</a></li>
-                <li>
-                    <a class="nav-link" href="./image.html">Image</a>
-                </li>
-                <li><a class="nav-link" href="./input.html">Input</a></li>
-                <li><a class="nav-link" href="#">Text Utilities</a></li>
-                <li><a class="nav-link" href="#">Lists</a></li>
-                <li><a class="nav-link" href="#">Navigation</a></li>
-                <li>
-                    <a class="nav-link" href="#">Modal</a>
-                </li>
-                <li><a class="nav-link" href="#">Rating</a></li>
-                <li>
-                    <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
-                </li>
-                <li><a class="nav-link" href="#">Simplified Grid</a></li>
-                <li><a class="nav-link" href="#">Navigation</a></li>
-                <li><a class="nav-link" href="#">Slider</a></li>
-            </ul>
-        </aside>
-        <main id="main-doc">
-            <div class="badge-container">
-                <div class="badge-notification">
+    <aside id="aside-navbar">
+        <ul>
+            <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+            <li>
+                <a class="nav-link" href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="nav-link" href="">Badge</a>
+            </li>
+            <li><a class="nav-link" href="./button.html">Button</a></li>
+            <li><a class="nav-link" href="./card.html">Card</a></li>
+            <li>
+                <a class="nav-link" href="./image.html">Image</a>
+            </li>
+            <li><a class="nav-link" href="./input.html">Input</a></li>
+            <li><a class="nav-link" href="#">Text Utilities</a></li>
+            <li><a class="nav-link" href="#">Lists</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li>
+                <a class="nav-link" href="#">Modal</a>
+            </li>
+            <li><a class="nav-link" href="#">Rating</a></li>
+            <li>
+                <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
+            </li>
+            <li><a class="nav-link" href="#">Simplified Grid</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li><a class="nav-link" href="#">Slider</a></li>
+        </ul>
+    </aside>
+    <main id="main-doc">
+        <div class="badge main-container">
+            <header>BADGE</header>
+            <p>The thing that pops up on your app's icon, when you recieve a message? Yes, that is known as a badge.
+                Badges are small circles with numbers or some activity status positioned on the top-right corners.
+            </p>
+            <div>
+                <h2>Number Badge</h2>
+                <p>Number Badges are used to tell the user the number of items present. Use the badge class for
+                    component and the classes num-notification, num-mail, num-cart and num-avatar according to your
+                    usecase.
+                    You can copy html part from below code snippet.
+                </p>
+            </div>
+            <div>
+                <h2>Number Code Example</h2>
+                <code class="code-text"><span><</span>div class="badge num-notification">
+                    <span><</span>i class="fa fa-bell"><span><</span>/i>
+                    <span><</span>span class="badge-notification-count">1<span><</span>/span>
+                <span><</span>/div>
+                </code>
+            </div>
+            <div>
+                <h2>Number Avatar Code Example</h2>
+                <code class="code-text"><span><</span>div class="badge num-avatar">
+                    <span><</span>img class="avatar-badge-image" src="../assets/images/avatar.png" alt="avatar">
+                    <span><</span>div>
+                        <span><</span>span class="badge-avatar-count">1 <span><</span>/span>
+                <span><</span>/div>
+                </code>
+            </div>
+            <div class="badge num-container">
+                <div class="badge num-notification">
                     <i class="fa fa-bell"></i>
                     <span class="badge-notification-count">1</span>
                 </div>
-                <div class="badge-mail">
+                <div class="badge num-mail">
                     <i class="fa fa-envelope"></i>
                     <span class="badge-mail-count">1</span>
                 </div>
-                <div class="badge-cart">
+                <div class="badge num-cart">
                     <i class="fa fa-shopping-cart"></i>
                     <span class="badge-cart-count">1</span>
                 </div>
-                <div class="badge-avatar">
+                <div class="badge num-avatar">
                     <img class="avatar-badge-image" src="../assets/images/avatar.png" alt="avatar">
                     <div>
                         <span class="badge-avatar-count">1</span>
                     </div>
                 </div>
             </div>
-        </main>
+
+            <div>
+                <h2>Profile Activity Badge</h2>
+                <p>Profile ACtivity Badges are used to tell the user the activity of other users. Use the badge class for
+                    component and the classes profile-success, profile-error, profile-warning and profile-awol according to your usecase.
+                    You can copy html part from below code snippet.
+                </p>
+            </div>
+            <div>
+                <h2>Profile Activity Code Example</h2>
+                <code class="code-text"><span><</span>div class="badge profile-success">
+                    <span><</span>img class="avatar-badge-image" src="../assets/images/avatar.png" alt="avatar">
+                    <span><</span>div class="badge-activity"><span><</span>/div>
+                <span><</span>/div>
+                </code>
+            </div>
+            <div class="badge profile-container">
+                <div class="badge profile-success">
+                    <img class="avatar-badge-image" src="../assets/images/avatar.png" alt="avatar">
+                    <div class="badge-activity"></div>
+                </div>
+                <div class="badge profile-error">
+                    <img class="avatar-badge-image" src="../assets/images/avatar.png" alt="avatar">
+                    <div class="badge-activity"></div>
+                </div>
+                <div class="badge profile-warning">
+                    <img class="avatar-badge-image" src="../assets/images/avatar.png" alt="avatar">
+                    <div class="badge-activity"></div>
+                </div>
+                <div class="badge profile-awol">
+                    <img class="avatar-badge-image" src="../assets/images/avatar.png" alt="avatar">
+                    <div class="badge-activity"></div>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>

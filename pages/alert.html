@@ -8,6 +8,7 @@
     <title>WALDO | Alert</title>
     <link rel="stylesheet" href="../styles/main.css">
 </head>
+
 <body>
     <nav class="navbar-content">
         <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
@@ -18,53 +19,69 @@
             <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
         </div>
     </nav>
-        <aside id="aside-navbar">
-            <header>Alert</header>
-            <ul>
-                <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
-                <li>
-                    <a class="nav-link" href="">Alert</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="./badge.html">Badge</a>
-                </li>
-                <li><a class="nav-link" href="./button.html">Button</a></li>
-                <li><a class="nav-link" href="./card.html">Card</a></li>
-                <li>
-                    <a class="nav-link" href="./image.html">Image</a>
-                </li>
-                <li><a class="nav-link" href="./input.html">Input</a></li>
-                <li><a class="nav-link" href="#">Text Utilities</a></li>
-                <li><a class="nav-link" href="#">Lists</a></li>
-                <li><a class="nav-link" href="#">Navigation</a></li>
-                <li>
-                    <a class="nav-link" href="#">Modal</a>
-                </li>
-                <li><a class="nav-link" href="#">Rating</a></li>
-                <li>
-                    <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
-                </li>
-                <li><a class="nav-link" href="#">Simplified Grid</a></li>
-                <li><a class="nav-link" href="#">Navigation</a></li>
-                <li><a class="nav-link" href="#">Slider</a></li>
-            </ul>
-        </aside>
-        <main id="main-doc">
+    <aside id="aside-navbar">
+        <ul>
+            <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+            <li>
+                <a class="nav-link" href="">Alert</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./badge.html">Badge</a>
+            </li>
+            <li><a class="nav-link" href="./button.html">Button</a></li>
+            <li><a class="nav-link" href="./card.html">Card</a></li>
+            <li>
+                <a class="nav-link" href="./image.html">Image</a>
+            </li>
+            <li><a class="nav-link" href="./input.html">Input</a></li>
+            <li><a class="nav-link" href="#">Text Utilities</a></li>
+            <li><a class="nav-link" href="#">Lists</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li>
+                <a class="nav-link" href="#">Modal</a>
+            </li>
+            <li><a class="nav-link" href="#">Rating</a></li>
+            <li>
+                <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
+            </li>
+            <li><a class="nav-link" href="#">Simplified Grid</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li><a class="nav-link" href="#">Slider</a></li>
+        </ul>
+    </aside>
+    <main id="main-doc">
+        <div class="alert main-container">
+            <header>ALERT</header>
+            <p>An alert displays a short, important message in a way that attracts the user's attention without interrupting the user's task.</p>
+            <div>
+                <h2>Simple Alert</h2>
+                <p>Alerts are available in 4 types- success alert, warning alert, info alert, danger alert.Use the alert class for alert component and the classes alert-success, alert-info alert-warning and alert-danger according to your usecase.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code
+                    class="code-text"><span><</span>div class="alert alert-success" role="alert">
+                        <span><</span>strong>Well done!<span><</span>/strong> You successfully read this important alert message.
+                    <span><</span>/div>
+                </code>
+            </div>
             <div class="alert-container">
-                <div class="alert-alert-success" role="alert">
+                <div class="alert alert-success" role="alert">
                     <strong>Well done!</strong> You successfully read this important alert message.
                 </div>
-                <div class="alert-alert-info" role="alert">
+                <div class="alert alert-info" role="alert">
                     <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
                 </div>
-                <div class="alert-alert-warning" role="alert">
+                <div class="alert alert-warning" role="alert">
                     <strong>Warning!</strong> Better check yourself, you're not looking too good.
                 </div>
-                <div class="alert-alert-danger" role="alert">
+                <div class="alert alert-danger" role="alert">
                     <strong>Oh snap!</strong> Change a few things up and try submitting again.
                 </div>
             </div>
-        </main>
+        </div>
+    </main>
 </body>
 
 </html>
