@@ -1,10 +1,17 @@
-/* btn-primary */
 .btn-container{
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    gap: 3rem;
+    margin-left: 5rem;
+    align-items: center;
+}
+
+/* btn-primary */
+.btn-primary-container, .btn-secondary-container, .btn-floating-container{
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-left: 8rem;
-    margin-top: 8rem;
 }
 
 .btn.btn-primary{
@@ -109,26 +116,59 @@
 }
 
 /* btn-floating */
-.btn.btn-floating{
+.btn-floating-container{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.btn.btn-primary-floating, .btn-secondary-floating{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
     border-radius: 50%;
     text-decoration: none;
     width: 4rem;
     height: 4rem;
 }
-
-.btn.btn-floating:hover{
-    background-color: rgb(77, 77, 77);
+.btn.btn-primary-floating{
+    background-color: white;
+}
+.btn-secondary-floating{
+    border: 1px solid #caca00;
+    background-color: none;
+    color: #caca00;
 }
 
-.btn.btn-floating>.icon{
+.btn.btn-primary-floating:hover{
+    background-color: rgb(77, 77, 77);
+}
+.btn.btn-secondary-floating:hover{
+    background-color: #caca00;
+}
+
+.btn.btn-primary-floating>.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
     color:rgb(0, 0, 0);
     font-size: 3rem;
 }
 
-.btn.btn-floating>.icon:hover{
+.btn.btn-primary-floating>.icon:hover{
     color:rgb(255, 255, 255)
+}
+
+.btn.btn-secondary-floating>.icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color:#caca00;
+    font-size: 3rem;
+}
+
+.btn.btn-secondary-floating>.icon:hover{
+    color: rgb(0, 0, 0);
 }

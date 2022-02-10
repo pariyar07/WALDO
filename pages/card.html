@@ -8,7 +8,7 @@
     <title>WALDO | Card</title>
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -21,39 +21,79 @@
             <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
         </div>
     </nav>
-        <aside id="aside-navbar">
+    <aside id="aside-navbar">
+        <ul>
+            <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+            <li>
+                <a class="nav-link" href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./badge.html">Badge</a>
+            </li>
+            <li><a class="nav-link" href="./button.html">Button</a></li>
+            <li style="padding-left: 1rem; font-size: 1.5rem;"><a class="nav-link" href="">Card</a></li>
+            <li>
+                <a class="nav-link" href="./image.html">Image</a>
+            </li>
+            <li><a class="nav-link" href="./input.html">Input</a></li>
+            <li><a class="nav-link" href="#">Text Utilities</a></li>
+            <li><a class="nav-link" href="#">Lists</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li>
+                <a class="nav-link" href="#">Modal</a>
+            </li>
+            <li><a class="nav-link" href="#">Rating</a></li>
+            <li>
+                <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
+            </li>
+            <li><a class="nav-link" href="#">Simplified Grid</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li><a class="nav-link" href="#">Slider</a></li>
+        </ul>
+    </aside>
+    <main id="main-doc">
+        <div class="card-container">
             <header>Card</header>
-            <ul>
-                <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
-                <li>
-                    <a class="nav-link" href="./alert.html">Alert</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="./badge.html">Badge</a>
-                </li>
-                <li><a class="nav-link" href="./button.html">Button</a></li>
-                <li><a class="nav-link" href="">Card</a></li>
-                <li>
-                    <a class="nav-link" href="./image.html">Image</a>
-                </li>
-                <li><a class="nav-link" href="./input.html">Input</a></li>
-                <li><a class="nav-link" href="#">Text Utilities</a></li>
-                <li><a class="nav-link" href="#">Lists</a></li>
-                <li><a class="nav-link" href="#">Navigation</a></li>
-                <li>
-                    <a class="nav-link" href="#">Modal</a>
-                </li>
-                <li><a class="nav-link" href="#">Rating</a></li>
-                <li>
-                    <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
-                </li>
-                <li><a class="nav-link" href="#">Simplified Grid</a></li>
-                <li><a class="nav-link" href="#">Navigation</a></li>
-                <li><a class="nav-link" href="#">Slider</a></li>
-            </ul>
-        </aside>
-        <main id="main-doc">
-            <div class="card-container">
+            <p>Cards are pre-built containers that provides a short and crisp information to the user through text,
+                images, links, and buttons.</p>
+            <div>
+                <h2>Vertical Card</h2>
+                <p>Vertical cards are available in 2 varients- simple vertical card, simple vertical card + label. Use
+                    the vertical card class for the component and the classes vertical-card-container and for badge just
+                    add a single line shown in code example and use according to your need.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code class="code-text">
+                    <span><</span>section class="card-content vertical-card-container">
+                        <span><</span>div class="card">
+                            <span><</span>img class="card-img" src="https://picsum.photos/250/300" alt="" />
+                            <br>
+                            <span>Paste the line below to add badge👇 </span>
+                            <span><</span>span class="card-badge">Best Seller<span><</span>/span>
+                            <br>
+                            <span><</span>div class="card-info">
+                                <span><</span>div class="card-title">
+                                    <span><</span>div>
+                                        <span><</span>h3>Lorem ipsum<span><</span>/h3>
+                                        <span><</span>p class="card-description">Lorem ipsum dolor sit.<span><</span>/p>
+                                    <span><</span>/div>
+                                    <span><</span>i class="fas fa-heart" aria-hidden="true"><span><</span>/i>
+                                <span><</span>/div>
+                                <span><</span>div class="price">
+                                    <span><</span>p class="current-price">₹50<span><</span>/p>
+                                    <span><</span>p class="actual-price">₹100<span><</span>/p>
+                                    <span><</span>p class="discount-percentage">(50% OFF)<span><</span>/p>
+                                <span><</span>/div>
+                            <span><</span>/div>
+                            <span><</span>div class="bottom-btn cart">
+                                <span><</span>button class="btn default add-cart">Add to Cart<span><</span>/button>
+                            <span><</span>/div>
+                        <span><</span>/div>
+                    <span><</span>/section>
+                </code>
+            </div>
             <section class="card-content vertical-card-container">
                 <div class="card">
                     <img class="card-img" src="https://picsum.photos/250/300" alt="" />
@@ -97,6 +137,49 @@
                     </div>
                 </div>
             </section>
+
+            <div>
+                <h2>Horizontal Card</h2>
+                <p>Create a horizontal card by using the code below. Use
+                    the horizontal card class for the component and the classes horizontal-card-container. It contains
+                    dismiss button and quantity section.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code class="code-text">
+                    <span><</span>section class="card-content horizontal-card-container">
+                        <span><</span>div class="card">
+                            <span><</span>div class="card-horizontal">
+                                <span><</span>img class="card-img horizontal-img" src="https://picsum.photos/200/300" alt="" />
+                                <span><</span>div class="card-info">
+                                    <span><</span>i class="fas fa-times dismiss-btn"><span><</span>/i>
+                                    <span><</span>div class="card-title">
+                                        <span><</span>div>
+                                            <span><</span>h3>Lorem, ipsum dolor.<span><</span>/h3>
+                                            <span><</span>p class="card-description">Lorem ipsum dolor sit amet consectetur.<span><</span>/p>
+                                        <span><</span>/div>
+                                    <span><</span>/div>
+                                    <span><</span>div class="price">
+                                        <span><</span>p class="current-price">₹100<span><</span>/p>
+                                        <span><</span>p class="actual-price">₹200<span><</span>/p>
+                                        <span><</span>p class="discount-percentage">(50% OFF)<span><</span>/p>
+                                    <span><</span>/div>
+                                    <span><</span>div class="quantity">
+                                        <span><</span>button class="minus">-<span><</span>/button>
+                                        <span><</span>input class="count" type="number" value="1" />
+                                        <span><</span>button class="add">+<span><</span>/button>
+                                    <span><</span>/div>
+                                <span><</span>/div>
+                            <span><</span>/div>
+                            <span><</span>div class="horizontal-btn">
+                                <span><</span>button class="remove-btn">REMOVE<span><</span>/button>
+                                <span><</span>button class="later-btn">SAVE FOR LATER<span><</span>/button>
+                            <span><</span>/div>
+                        <span><</span>/div>
+                        <span><</span>/section>
+                </code>
+            </div>
             <section class="card-content horizontal-card-container">
                 <div class="card">
                     <div class="card-horizontal">
@@ -127,15 +210,74 @@
                     </div>
                 </div>
             </section>
+
+            <div>
+                <h2>Text-Only Card</h2>
+                <p>Create a text-only card by using the code below. Use
+                    the card class for the component and the classes text-only-card-container.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code class="code-text">
+                    <span><</span>section class="card-content text-only-card-container">
+                        <span><</span>div class="card">
+                            <span><</span>div class="text-info">
+                                <span><</span>h1>Lorem, ipsum dolor.<span><</span>/h1>
+                                <span><</span>h3>Lorem ipsum dolor sit.<span><</span>/h3>
+                                <span><</span>p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo dignissimos facilis
+                                    reprehenderit libero possimus quo, aliquid voluptatum quas! Animi distinctio harum assumenda
+                                    error in aut quod molestias voluptates reiciendis!<span><</span>/p>
+                            <span><</span>/div>
+                        <span><</span>/div>
+                    <span><</span>/section>
+                </code>
+                </div>
             <section class="card-content text-only-card-container">
                 <div class="card">
                     <div class="text-info">
                         <h1>Lorem, ipsum dolor.</h1>
                         <h3>Lorem ipsum dolor sit.</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo dignissimos facilis reprehenderit libero possimus quo, aliquid voluptatum quas! Animi distinctio harum assumenda error in aut quod molestias voluptates reiciendis!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nemo dignissimos facilis
+                            reprehenderit libero possimus quo, aliquid voluptatum quas! Animi distinctio harum assumenda
+                            error in aut quod molestias voluptates reiciendis!</p>
                     </div>
                 </div>
             </section>
+
+            <div>
+                <h2>Text-Overlay Card</h2>
+                <p>Create a text-overlay card by using the code below. Use
+                    the card class for the component and the classes text-overlay-card-container.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code class="code-text">
+                    <span><</span>section class="card-content text-overlay-card-container">
+                        <span><</span>div class="card">
+                            <span><</span>img class="card-img" src="https://picsum.photos/250/300" alt="" />
+                            <span><</span>div class="card-info">
+                                <span><</span>div class="card-title">
+                                    <span><</span>div class="text-overlay">
+                                        <span><</span>h3>Lorem ipsum<span><</span>/h3>
+                                        <span><</span>p class="card-description">Lorem ipsum dolor sit.<span><</span>/p>
+                                    <span><</span>/div>
+                                    <span><</span>i class="fas fa-heart" aria-hidden="true"><span><</span>/i>
+                                <span><</span>/div>
+                                <span><</span>div class="price">
+                                    <span><</span>p class="current-price">₹50<span><</span>/p>
+                                    <span><</span>p class="actual-price">₹100<span><</span>/p>
+                                    <span><</span>p class="discount-percentage">(50% OFF)<span><</span>/p>
+                                <span><</span>/div>
+                            <span><</span>/div>
+                            <span><</span>div class="bottom-btn cart">
+                                <span><</span>button class="btn default add-cart">Add to Cart<span><</span>/button>
+                            <span><</span>/div>
+                        <span><</span>/div>
+                    <span><</span>/section>
+                </code>
+                </div>
             <section class="card-content text-overlay-card-container">
                 <div class="card">
                     <img class="card-img" src="https://picsum.photos/250/300" alt="" />
@@ -159,7 +301,7 @@
                 </div>
             </section>
         </div>
-        </main>
+    </main>
 </body>
 
 </html>

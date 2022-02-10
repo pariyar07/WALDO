@@ -2,8 +2,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 8rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
+    width: 900px;
+    gap: 2rem;
 }
 
 .card {

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
     <nav class="navbar-content">
         <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
@@ -20,7 +21,6 @@
         </div>
     </nav>
     <aside id="aside-navbar">
-        <header>Button</header>
         <ul>
             <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
             <li>
@@ -29,7 +29,7 @@
             <li>
                 <a class="nav-link" href="./badge.html">Badge</a>
             </li>
-            <li><a class="nav-link" href="">Button</a></li>
+            <li style="padding-left: 1rem; font-size: 1.5rem;"><a class="nav-link" href="">Button</a></li>
             <li><a class="nav-link" href="./card.html">Card</a></li>
             <li>
                 <a class="nav-link" href="./image.html">Image</a>
@@ -52,50 +52,124 @@
     </aside>
     <main id="main-doc">
         <div class="btn-container">
-            <a href="#" class="btn btn-primary btn-solid">Primary Solid</a>
+            <header>Button</header>
+            <p>Buttons are the most common and most important part of a web app that allows you to navigate from one
+                page to another, perform certain actions etc.</p>
+            <div>
+                <h2>Primary Button</h2>
+                <p>Primary Button are available in 5 varients - solid button, outline button, icon button, solid + icon
+                    button and link button. Use the button class for the component and the classes btn-primary
+                    btn-solid, btn-primary btn-outline, btn-primary btn-icon, btn-primary btn-text-icon and btn-primary
+                    btn-link according to your usecase.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Primary Code Example</h2>
+                <code class="code-text"><span><</span>a href="#" class="btn btn-primary btn-solid">Primary Solid<span><</span>/a>
+                    <br>
+                    <span><</span>a href="#" class="btn btn-primary btn-outline">Primary Outline<span><</span>/a>
+                    <br>
+                    <span><</span>a href="" class="btn btn-primary btn-icon">
+                        <span><</span>span class="icon">
+                            <span><</span>i class="fa fa-shopping-cart"><span><</span>/i>
+                        <span><</span>/span>
+                    <span><</span>/a>
+                    <br>
+                    <span><</span>a href="/" class="btn btn-primary btn-text-icon">GitHub
+                        <span><</span> span class="icon">
+                            <span><</span>i class="fa fa-github"><span><</span>/i>
+                        <span><</span>/span>
+                    <span><</span>/a>
+                    <br>
+                    <span><</span>a href="/" class="btn btn-primary btn-link">Home <span><</span>/a>
+                </code>
+            </div>
+            <div class="btn-primary-container">
+                <a href="#" class="btn btn-primary btn-solid">Primary Solid</a>
+                <a href="#" class="btn btn-primary btn-outline">Primary Outline</a>
+                <a href="" class="btn btn-primary btn-icon">
+                    <span class="icon">
+                        <i class="fa fa-shopping-cart"></i>
+                    </span>
+                </a>
+                <a href="/" class="btn btn-primary btn-text-icon ">GitHub
+                    <span class="icon">
+                        <i class="fa fa-github"></i>
+                    </span>
+                </a>
+                <a href="/" class="btn btn-primary btn-link">Home</a>
+            </div>
+            <div>
+                <h2>Secondary Button</h2>
+                <p>Secondary Button are available in 5 varients - solid button, outline button, icon button, solid +
+                    icon button and link button. Use the button class for the component and the classes btn-secondary
+                    btn-solid, btn-secondary btn-outline, btn-secondary btn-icon, btn-secondary btn-text-icon and
+                    btn-secondary btn-link according to your usecase.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Secondary Code Example</h2>
+                <code class="code-text"><span><</span>a href="#" class="btn btn-secondary btn-solid">Secondary Solid<span><</span>/a>
+                    <br>
+                    <span><</span>a href="#" class="btn btn-secondary btn-outline">Secondary Outline<span><</span>/a>
+                    <br>
+                    <span><</span>a href="" class="btn btn-secondary btn-icon">
+                        <span><</span>span class="icon">
+                            <span><</span>i class="fa fa-shopping-cart"><span><</span>/i>
+                        <span><</span>/span>
+                    <span><</span>/a>
+                    <br>
+                    <span><</span>a href="/" class="btn btn-secondary btn-text-icon">GitHub
+                        <span><</span> span class="icon">
+                            <span><</span>i class="fa fa-github"><span><</span>/i>
+                        <span><</span>/span>
+                    <span><</span>/a>
+                    <br>
+                    <span><</span>a href="/" class="btn btn-secondary btn-link">Home<span><</span>/a>
+                </code>
+            </div>
+            <div class="btn-secondary-container">
+                <a href="#" class="btn btn-secondary btn-solid">Secondary Solid</a>
+                <a href="#" class="btn btn-secondary btn-outline">Secondary Outline</a>
+                <a href="" class="btn btn-secondary btn-icon">
+                    <span class="icon">
+                        <i class="fa fa-shopping-cart"></i>
+                    </span>
+                </a>
+                <a href="/" class="btn btn-secondary btn-text-icon ">Github
+                    <span class="icon">
+                        <i class="fa fa-github icon"></i>
+                    </span>
+                </a>
+                <a href="/" class="btn btn-secondary btn-link">Home</a>
+            </div>
 
-            <a href="#" class="btn btn-primary btn-outline">Primary Outline</a>
-
-            <a href="" class="btn btn-primary btn-icon">
-                <span class="icon">
-                    <i class="fa fa-shopping-cart"></i>
-                </span>
-            </a>
-
-            <a href="/" class="btn btn-primary btn-text-icon ">GitHub
-                <span class="icon">
-                    <i class="fa fa-github"></i>
-                </span>
-            </a>
-
-            <a href="/" class="btn btn-primary btn-link">Home</a>
+            <div>
+                <h2>Float Button</h2>
+                <p>Float Button are available in 2 varients - primary color and secondary color. Use the button class for the component and the classes  according to your usecase.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Float Code Example</h2>
+                <code class="code-text">
+                    <span><</span>a href="#" class="btn btn-primary-floating">
+                        <span><</span>i class="fa fa-arrow-up icon"><span><</span>/i>
+                    <span><</span>/a>
+                    <br>
+                    <span><</span>a href="#" class="btn btn-secondary-floating">
+                        <span><</span>i class="fa fa-arrow-up icon"></i>
+                    <span><</span>/a>
+                </code>
+            </div>
+            <div class="btn-floating-container">
+                <a href="#" class="btn btn-primary-floating">
+                    <i class="fa fa-arrow-up icon"></i>
+                </a>
+                <a href="#" class="btn btn-secondary-floating">
+                    <i class="fa fa-arrow-up icon"></i>
+                </a>
+            </div>
         </div>
-
-        <div class="btn-container">
-            <a href="#" class="btn btn-secondary btn-solid">Secondary Solid</a>
-
-            <a href="#" class="btn btn-secondary btn-outline">Secondary Outline</a>
-
-            <a href="" class="btn btn-secondary btn-icon">
-                <span class="icon">
-                    <i class="fa fa-shopping-cart"></i>
-                </span>
-            </a>
-
-            <a href="/" class="btn btn-secondary btn-text-icon ">Github
-                <span class="icon">
-                    <i class="fa fa-github icon"></i>
-                </span>
-            </a>
-
-            <a href="/" class="btn btn-secondary btn-link">Home</a>
-        </div>
-        <div class="btn-container">
-            <a href="#" class="btn btn-floating">
-                <i class="fa fa-arrow-up icon"></i>
-            </a>
-        </div>
-
     </main>
 </body>
 
