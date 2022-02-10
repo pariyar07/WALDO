@@ -5,8 +5,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-left: 12rem;
-    margin-top: 8rem;
+    gap: 2rem;
+    margin-left: 5rem;
+    width: 900px;
 }
 
 .image-responsive{
