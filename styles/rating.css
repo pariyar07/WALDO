@@ -1,0 +1,54 @@
+.rating.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    width: 900px;
+    margin-left: 5rem;
+}
+
+.rating-container{
+    border: 1px solid white;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+}
+
+.empty-rating{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+.filled-rating{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    color: #F60001;
+    font-size: 1.5rem;
+}
+
+.custom-rating{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+.custom-rating.filled{
+    color: #F60001;
+}
+.custom-rating.unfilled{
+    color: white;
+}
+
+.emoji-rating{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}

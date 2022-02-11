@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALDO | Rating</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+
+<body>
+    <nav class="navbar-content">
+        <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
+        <div class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./install.html">Installation</a></li>
+            <li><a href="./documentation.html">Documentation</a></li>
+            <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
+        </div>
+    </nav>
+    <aside id="aside-navbar">
+        <ul>
+            <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+            <li>
+                <a class="nav-link" href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./badge.html">Badge</a>
+            </li>
+            <li><a class="nav-link" href="./button.html">Button</a></li>
+            <li><a class="nav-link" href="./card.html">Card</a></li>
+            <li>
+                <a class="nav-link" href="./image.html">Image</a>
+            </li>
+            <li><a class="nav-link" href="./input.html">Input</a></li>
+            <li><a class="nav-link" href="#">Text Utilities</a></li>
+            <li><a class="nav-link" href="#">Lists</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li>
+                <a class="nav-link" href="#">Modal</a>
+            </li>
+            <li><a style="padding-left: 1rem; font-size: 1.5rem; background: #171717; border-radius: 8px;"
+                    class="nav-link" href="#">Rating</a></li>
+            <li>
+                <a class="nav-link" href="#">Toast/Notify/Snackbar</a>
+            </li>
+            <li><a class="nav-link" href="#">Simplified Grid</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li><a class="nav-link" href="#">Slider</a></li>
+        </ul>
+    </aside>
+    <main id="main-doc">
+        <div class="rating main-container">
+            <header>RATING</header>
+            <p>Rating shows the opinion of others and their experience with the product, you can use stars or other
+                custom icons in it.</p>
+            <div>
+                <h2>Rating</h2>
+                <p>Rating are available in 4 types - empty, filled, custom and emoji. Use the rating class for the component and the classes empty-rating, filled-rating, custom-rating or emoji-rating according to your usecase.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Empty Code Example</h2>
+                <code
+                    class="code-text"><span><</span>div class="rating-container">
+                    <span><</span>ul class="empty-rating">
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                    <span><</span>/ul>
+                <span><</span>/div>
+                </code>
+            </div>
+            <div class="rating-container">
+                <ul class="empty-rating">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Filled Code Example</h2>
+                <code
+                    class="code-text"><span><</span>div class="rating-container">
+                    <span><</span>ul class="filled-rating">
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                        <span><</span>li><span><</span>i class="fa fa-star"><span><</span>/i><span><</span>/li>
+                    <span><</span>/ul>
+                <span><</span>/div>
+                </code>
+            </div>
+            <div class="rating-container">
+                <ul class="filled-rating">
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                    <li><i class="fa fa-star"></i></li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Custom Code Example</h2>
+                <code
+                    class="code-text"><span><</span>div class="rating-container">
+                        <span><</span>ul class="custom-rating">
+                            <span><</span>div class="custom-rating filled">
+                                <span><</span>li><span><</span>i class="fa fa-heart"><span><</span>/i><span><</span>/li>
+                                <span><</span>li><span><</span>i class="fa fa-heart"><span><</span>/i><span><</span>/li>
+                                <span><</span>li><span><</span>i class="fa fa-heart"><span><</span>/i><span><</span>/li>
+                            <span><</span>/div>
+                            <span><</span>div class="custom-rating unfilled">
+                                <span><</span>li><span><</span>i class="fa fa-heart"><span><</span>/i><span><</span>/li>
+                                <span><</span>li><span><</span>i class="fa fa-heart"><span><</span>/i><span><</span>/li>
+                            <span><</span>/div>
+                        <span><</span>/ul>
+                    <span><</span>/div>
+                </code>
+            </div>
+            <div class="rating-container">
+                <ul class="custom-rating">
+                    <div class="custom-rating filled">
+                        <li><i class="fa fa-heart"></i></li>
+                        <li><i class="fa fa-heart"></i></li>
+                        <li><i class="fa fa-heart"></i></li>
+                    </div>
+                    <div class="custom-rating unfilled">
+                        <li><i class="fa fa-heart"></i></li>
+                        <li><i class="fa fa-heart"></i></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Emoji Code Example</h2>
+                <code
+                    class="code-text"><span><</span>div class="rating-container">
+                        <span><</span>ul class="emoji-rating">
+                            <span><</span>li><span><</span>i class="fa fa-sad-cry"><span><</span>/i><span><</span>/li>
+                            <span><</span>li><span><</span>i class="fa fa-frown"><span><</span>/i><span><</span>/li>
+                            <span><</span>li><span><</span>i class="fa fa-smile"><span><</span>/i><span><</span>/li>
+                            <span><</span>li><span><</span>i class="fa fa-grin"><span><</span>/i><span><</span>/li>
+                            <span><</span>li><span><</span>i class="fa fa-grin-stars"><span><</span>/i><span><</span>/li>
+                        <span><</span>/ul>
+                    <span><</span>/div>
+                </code>
+            </div>
+            <div class="rating-container">
+                <ul class="emoji-rating">
+                    <li><i class="fa fa-sad-cry"></i></li>
+                    <li><i class="fa fa-frown"></i></li>
+                    <li><i class="fa fa-smile"></i></li>
+                    <li><i class="fa fa-grin"></i></li>
+                    <li><i class="fa fa-grin-stars"></i></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
