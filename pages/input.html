@@ -22,7 +22,6 @@
         </div>
     </nav>
     <aside id="aside-navbar">
-        <header>Input</header>
         <ul>
             <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
             <li>
@@ -36,7 +35,8 @@
             <li>
                 <a class="nav-link" href="./image.html">Image</a>
             </li>
-            <li style="padding-left: 1rem; font-size: 1.5rem;"><a class="nav-link" href="">Input</a></li>
+            <li style="padding-left: 1rem; font-size: 1.5rem; background: #171717; border-radius: 8px;"><a
+                    class="nav-link" href="">Input</a></li>
             <li><a class="nav-link" href="#">Text Utilities</a></li>
             <li><a class="nav-link" href="#">Lists</a></li>
             <li><a class="nav-link" href="#">Navigation</a></li>
@@ -54,46 +54,112 @@
     </aside>
     <main id="main-doc">
         <div class="input-container">
+            <header>INPUTS</header>
+            <p>Input is used to create interactive controls for web-based forms in order to accept data from the user.
+                WALDO has varieties of input styles available.</p>
+            <div>
+                <h2>Simple Input</h2>
+                <p>This is a simple input with a textarea and a submit button and is customisable according to the user
+                    interface.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code class="code-text"><span><</span>div class="textarea-container">
+                        <span><</span>textarea class="textarea" placeholder="Write something here..."><span><</span>/textarea>
+                        <span><</span>button class="btn-submit">Submit<span><</span>/button>
+                    <span><</span>/div>
+                </code>
+            </div>
             <div class="textarea-container">
                 <textarea class="textarea" placeholder="Write something here..."></textarea>
                 <button class="btn-submit">Submit</button>
             </div>
+
             <!-- sign-in-form -->
-            <div class="sign-in-container">
-                <div class="header">
-                    <h2>Sign-In</h2>
+            <div class="sign-in-form-control">
+                <div>
+                    <h2>Sign-In Form</h2>
+                    <p>This is a sign-in form with individual inputs and a button. You can copy the whole code or use
+                        the individual inputs according to your usecase.
+                        You can copy html and JS part from below code snippet.</p>
                 </div>
-                <form id="form" class="form">
-                    <div class="form-control">
-                        <label for="username">Username</label>
-                        <input type="text" id="username" placeholder="Username">
-                        <i id="suc" class="fas fa-check"></i>
-                        <i id="err" class="fas fa-exclamation-circle"></i>
-                        <small>Message</small>
+                <h2>Code Example</h2>
+                <code class="code-text"><span><</span>div class="sign-in-container">
+                    <span><</span>div class="header">
+                        <span><</span>h2>Sign-In<span><</span>/h2>
+                    <span><</span>/div>
+                    <span><</span>form id="form" class="form">
+                        <span><</span>div class="form-control">
+                            <span><</span>label for="username">Username<span><</span>/label>
+                            <span><</span>input type="text" id="username" placeholder="Username">
+                            <span><</span>i id="suc" class="fas fa-check"><span><</span>/i>
+                            <span><</span>i id="err" class="fas fa-exclamation-circle"><span><</span>/i>
+                            <span><</span>small>Message<span><</span>/small>
+                        <span><</span>/div>
+                        <span><</span>div class="form-control">
+                            <span><</span>label for="email">Email<span><</span>/label>
+                            <span><</span>input type="email" id="email" placeholder="Email">
+                            <span><</span>i id="suc" class="fas fa-check"><span><</span>/i>
+                            <span><</span>i id="err" class="fas fa-exclamation-circle"><span><</span>/i>
+                            <span><</span>small>Message<span><</span>/small>
+                        <span><</span>/div>
+                        <span><</span>div class="form-control">
+                            <span><</span>label for="password">Password<span><</span>/label>
+                            <span><</span>input type="password" id="password" placeholder="Password">
+                            <span><</span>i id="suc" class="fas fa-check"><span><</span>/i>
+                            <span><</span>i id="err" class="fas fa-exclamation-circle"><span><</span>/i>
+                            <span><</span>small>Message<span><</span>/small>
+                        <span><</span>/div>
+                        <span><</span>div class="form-control">
+                            <span><</span>label for="checkpassword">Check Password<span><</span>/label>
+                            <span><</span>input type="password" id="checkpassword" placeholder="Check Password">
+                            <span><</span>i id="suc" class="fas fa-check"><span><</span>/i>
+                            <span><</span>i id="err" class="fas fa-exclamation-circle"><span><</span>/i>
+                            <span><</span>small>Message<span><</span>/small>
+                        <span><</span>/div>
+                        <span><</span>button id="sign-btn">Sign-In<span><</span>/button>
+                    <span><</span>/form>
+                <span><</span>/div>
+                </code>
+
+                <div class="js-link">Here is a link to a JS file:<br><a href="https://github.com/pariyar07/WALDO/blob/dev/js/input.js">https://github.com/pariyar07/WALDO/</a></div>
+                <div class="sign-in-container">
+                    <div class="header">
+                        <h2>Sign-In</h2>
                     </div>
-                    <div class="form-control">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" placeholder="Email">
-                        <i id="suc" class="fas fa-check"></i>
-                        <i id="err" class="fas fa-exclamation-circle"></i>
-                        <small>Message</small>
-                    </div>
-                    <div class="form-control">
-                        <label for="password">Password</label>
-                        <input type="password" id="password" placeholder="Password">
-                        <i id="suc" class="fas fa-check"></i>
-                        <i id="err" class="fas fa-exclamation-circle"></i>
-                        <small>Message</small>
-                    </div>
-                    <div class="form-control">
-                        <label for="checkpassword">Check Password</label>
-                        <input type="password" id="checkpassword" placeholder="Check Password">
-                        <i id="suc" class="fas fa-check"></i>
-                        <i id="err" class="fas fa-exclamation-circle"></i>
-                        <small>Message</small>
-                    </div>
-                    <button id="sign-btn">Sign-In</button>
-                </form>
+                    <form id="form" class="form">
+                        <div class="form-control">
+                            <label for="username">Username</label>
+                            <input type="text" id="username" placeholder="Username">
+                            <i id="suc" class="fas fa-check"></i>
+                            <i id="err" class="fas fa-exclamation-circle"></i>
+                            <small>Message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email">
+                            <i id="suc" class="fas fa-check"></i>
+                            <i id="err" class="fas fa-exclamation-circle"></i>
+                            <small>Message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="password">Password</label>
+                            <input type="password" id="password" placeholder="Password">
+                            <i id="suc" class="fas fa-check"></i>
+                            <i id="err" class="fas fa-exclamation-circle"></i>
+                            <small>Message</small>
+                        </div>
+                        <div class="form-control">
+                            <label for="checkpassword">Check Password</label>
+                            <input type="password" id="checkpassword" placeholder="Check Password">
+                            <i id="suc" class="fas fa-check"></i>
+                            <i id="err" class="fas fa-exclamation-circle"></i>
+                            <small>Message</small>
+                        </div>
+                        <button id="sign-btn">Sign-In</button>
+                    </form>
+                </div>
             </div>
         </div>
     </main>
