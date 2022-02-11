@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALDO | Snackbar</title>
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav class="navbar-content">
+        <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
+        <div class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./install.html">Installation</a></li>
+            <li><a href="./documentation.html">Documentation</a></li>
+            <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
+        </div>
+    </nav>
+    <aside id="aside-navbar">
+        <ul>
+            <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+            <li>
+                <a class="nav-link" href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./badge.html">Badge</a>
+            </li>
+            <li><a class="nav-link" href="./button.html">Button</a></li>
+            <li><a class="nav-link" href="./card.html">Card</a></li>
+            <li>
+                <a class="nav-link" href="./image.html">Image</a>
+            </li>
+            <li><a class="nav-link" href="./input.html">Input</a></li>
+            <li><a class="nav-link" href="#">Text Utilities</a></li>
+            <li><a class="nav-link" href="#">Lists</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li>
+                <a class="nav-link" href="#">Modal</a>
+            </li>
+            <li><a class="nav-link" href="#">Rating</a></li>
+            <li style="padding-left: 1rem; font-size: 1.5rem; background: #171717; border-radius: 8px;">
+                <a class="nav-link" href="#">Snackbar</a>
+            </li>
+            <li><a class="nav-link" href="#">Simplified Grid</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li><a class="nav-link" href="#">Slider</a></li>
+        </ul>
+    </aside>
+    <main id="main-doc">
+        <div class="snackbar-container">
+            <header>SNACKBAR</header>
+            <p>Snackbar are a non-disruptive message in the corner of the interface. It provides quick 'at-a-glance' feedback on the outcome of an action.</p>
+            <div>
+                <h2>Snackbars</h2>
+                <p>There are three types of snackbar component. These can be accessed by class names - button-baseline, button-leading and button-stacked. Copy the code from below and add them accorging to your required size. Click on the buttons to see live demo.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code class="code-text">
+                    <span><</span>div class='button-container'>
+                        <span><</span>button class="button-baseline">BASELINE<span><</span>/button>
+                        <span><</span>button class="button-leading">LEADING<span><</span>/button>
+                        <span><</span>button class="button-stacked">STACKED<span><</span>/button>
+                    <span><</span>/div>
+                    <span><</span>div class="snackbar">
+                        <span><</span>p>Can't login to the website. Please try again later.<span><</span>/p>
+                        <span><</span>button>RETRY<span><</span>i class="fa fa-times"><span><</span>/i><span><</span>/button>
+                    <span><</span>/div>
+                </code>
+            </div>
+            <div class='button-container'>
+                <button class="button-baseline">BASELINE</button>
+                <button class="button-leading">LEADING</button>
+                <button class="button-stacked">STACKED</button>
+            </div>
+            <div class="js-link">
+                Here is a link to a JS file:<br><a href="https://github.com/pariyar07/WALDO/blob/dev/js/snackbar.js">https://github.com/pariyar07/WALDO/</a>
+            </div>
+            <div class="snackbar">
+                <p>Can't login to the website. Please try again later.</p>
+                <button>RETRY<i class="fa fa-times"></i></button>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="../js/snackbar.js"></script>
+</html>
