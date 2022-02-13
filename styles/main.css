@@ -13,6 +13,8 @@
 @import "./index.css";
 @import "./nav.css";
 @import "./modal.css";
+@import "./rating.css";
+@import "./snackbar.css";
 
 *,
 ::before,
