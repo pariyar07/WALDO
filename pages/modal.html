@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALDO | Modal</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <nav class="navbar-content">
+        <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
+        <div class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./install.html">Installation</a></li>
+            <li><a href="./documentation.html">Documentation</a></li>
+            <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
+        </div>
+    </nav>
+    <aside id="aside-navbar">
+        <ul>
+            <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+            <li>
+                <a class="nav-link" href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./badge.html">Badge</a>
+            </li>
+            <li><a class="nav-link" href="./button.html">Button</a></li>
+            <li><a class="nav-link" href="./card.html">Card</a></li>
+            <li>
+                <a class="nav-link" href="./image.html">Image</a>
+            </li>
+            <li><a class="nav-link" href="./input.html">Input</a></li>
+            <li><a class="nav-link" href="#">Text Utilities</a></li>
+            <li><a class="nav-link" href="#">Lists</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li>
+                <a style="padding-left: 1rem; font-size: 1.5rem; background: #171717; border-radius: 8px;"
+                    class="nav-link" href="#">Modal</a>
+            </li>
+            <li><a class="nav-link" href="#">Rating</a></li>
+            <li>
+                <a class="nav-link" href="#">Snackbar</a>
+            </li>
+            <li><a class="nav-link" href="#">Simplified Grid</a></li>
+            <li><a class="nav-link" href="#">Navigation</a></li>
+            <li><a class="nav-link" href="#">Slider</a></li>
+        </ul>
+    </aside>
+    <main id="main-doc">
+        <div class="modal-container">
+            <header>MODAL</header>
+            <p>Use the modal component to show interactive dialogs and notifications to your website users in multiple
+                sizes, colors, and styles. Click on the button below.</p>
+            <button class="btn-modal">Modal</button>
+            <div>
+                <h2>Pop-Up Modal</h2>
+                <p>You can use this modal example to show a pop-up decision dialog to your users especially when
+                    deleting an item and making sure if the user really wants to do that by double confirming. Use the
+                    code example below to use or customize according to your preference.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code class="code-text"><span><</span>div class="pop-up-modal">
+                        <span><</span>span class="modal-icon"><span><</span>i class="fa fa-exclamation"><span><</span>/i><span><</span>/span>
+                        <span><</span>span class="modal-dismiss"><span><</span>i class="fa fa-times"><span><</span>/i><span><</span>/span>
+                        <span><</span>p class="modal-info">Are you sure you want to delete this product?<span><</span>/p>
+                        <span><</span>div class="modal-btns">
+                            <span><</span>button class="modal-btns proceed">Yes, I'm sure<span><</span>/button>
+                            <span><</span>button class="modal-btns cancel">No, cancel<span><</span>/button>
+                        <span><</span>/div>
+                    <span><</span>/div>
+                </code>
+            </div>
+            <div class="js-link">Here is a link to a JS file:<br><a
+                    href="https://github.com/pariyar07/WALDO/blob/dev/js/waldo.js">https://github.com/pariyar07/WALDO/</a>
+            </div>
+        </div>
+    </main>
+    <div class="modal-content">
+        <div class="modal">
+            <span class="modal-icon"><i class="fa fa-exclamation"></i></span>
+            <span class="modal-dismiss"><i class="fa fa-times"></i></span>
+            <p class="modal-info">Are you sure you want to delete this product?</p>
+            <div class="modal-btns">
+                <button class="modal-btns proceed">Yes, I'm sure</button>
+                <button class="modal-btns cancel">No, cancel</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/modal.js"></script>
+
+</html>
