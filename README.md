@@ -2,7 +2,8 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/pariyar07)
 
-WALDO is a Component Library that makes your website come to life faster.
+WALDO is a Component Library that makes your website come to life faster and make more
+attractive.
 
 ![image](./assets/images/WALDO-Homepage.png)
 
