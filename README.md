@@ -12,6 +12,19 @@ attractive.
 Include CSS file mentioned in [installation section](https://waldo-ui.netlify.app/pages/install.html) in your head tag of html file.
 You are ready to use this file.
 
+## Components provided
+
+- Alert
+- Avatar
+- Badges
+- Buttons
+- Cards
+- Images
+- Input
+- Modal
+- Rating
+- Snackbar
+
 # Tech Stack
 - HTML
 - CSS
