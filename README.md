@@ -18,8 +18,18 @@ attractive.
 
 # Installation Steps
 
-Include CSS file mentioned in [installation section](https://waldo-ui.netlify.app/pages/install.html) in your head tag of html file.
-You are ready to use this file.
+Visit [WALDO Documentation Website](https://waldo-ui.netlify.app/pages/documentation.html) and check out the documentation for the library. To use WALDO include the CSS file in the main stylesheet using `@import` or in the `<head>` of your `index.html` file using `<link>`. 
+<br />
+Copy-paste the below code in the `<head>` section of your HTML files to load predefined styles, components and utilities. 
+
+### Import in the `<head>` of HTML file:
+
+<link rel ="stylesheet" href = "https://waldo-ui.netlify.app/styles/main.css" />
+
+
+### Import in your main CSS stylesheet:
+
+@import url("https://waldo-ui.netlify.app/styles/main.css");
 
 ## Components provided
 
