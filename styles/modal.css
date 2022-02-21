@@ -26,7 +26,7 @@
 }
 
 .modal {
-    background-color: #171717;
+    background-color: var(--secondary-bg);
     padding: 2rem 3rem;
     display: flex;
     flex-direction: column;
@@ -41,14 +41,14 @@
 
 .modal-icon {
     font-size: 3rem;
-    border: 2px solid white;
+    border: 2px solid var(--primary-clr);
     border-radius: 50%;
     width: 4.8rem;
     text-align: center;
 }
 
 .modal-info{
-    color:rgb(170, 170, 170);
+    color:var(--primary-clr-hover);
 }
 
 .modal-dismiss {
@@ -58,21 +58,21 @@
 }
 
 .modal-dismiss:hover {
-    color: rgb(125, 125, 125)
+    color: var(--primary-clr-hover);
 }
 
 .btn-modal {
     font-size: 1.5rem;
     padding: 0.5rem 4rem;
-    border: 1px solid white;
-    background: black;
-    color: white;
+    border: 1px solid var(--primary-clr);
+    background: var(--primary-bg);
+    color: var(--primary-clr);
     border-radius: 10px;
 }
 
 .btn-modal:hover {
-    background-color: #505050;
-    border: 1px solid #505050;
+    background-color: var(--primary-clr-hover);
+    border: 1px solid var(--primary-clr-hover);
 }
 
 .modal-btns {
@@ -84,27 +84,27 @@
 .modal-btns.proceed {
     border: none;
     font-size: 1rem;
-    background-color: rgb(180, 0, 0);
+    background-color: var(--liked-clr);
     padding: 0.5rem 1.2rem;
-    color: white;
+    color: var(--primary-clr);
     border-radius: 5px;
 }
 
 .modal-btns.proceed:hover {
-    background-color: rgb(150, 0, 0);
+    background-color: var(--danger-dark);
 }
 
 .modal-btns.cancel {
-    border: 1px solid white;
+    border: 1px solid var(--primary-clr);
     font-size: 1rem;
     background: none;
     padding: 0.5rem 1.2rem;
-    color: white;
+    color: var(--primary-clr);
     border-radius: 5px;
 }
 
 .modal-btns.cancel:hover {
-    background-color: rgb(150, 150, 150);
-    color: white;
-    border: 1px solid rgb(150, 150, 150);
+    background-color: var(--primary-clr-hover);
+    color: var(--primary-clr);
+    border: 1px solid var(--primary-clr-hover);
 }

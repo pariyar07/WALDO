@@ -9,7 +9,7 @@
 }
 
 .rating-container{
-    border: 1px solid white;
+    border: 1px solid var(--primary-clr);
     padding: 1rem 2rem;
     border-radius: 8px;
 }
@@ -23,12 +23,12 @@
 }
 
 .filled-rating{
-    color: #F60001;
+    color: var(--liked-clr);
 }
 
 .custom-rating.filled{
-    color: #F60001;
+    color: var(--liked-clr);
 }
 .custom-rating.unfilled{
-    color: white;
+    color: var(--primary-clr);
 }

@@ -32,10 +32,10 @@
     position: absolute;
     right: 0;
     top: 0;
-    background:rgb(0, 153, 255);
-    color:rgb(255, 255, 255);
+    background: var(--notif-blue);
+    color:var(--primary-clr);
     width: 1.7rem;
-    border: 2px solid black;
+    border: 2px solid var(--primary-bg);
     border-radius: 50%;
 }
 
@@ -51,10 +51,10 @@
     position: absolute;
     right: -12px;
     top: 0;
-    background:rgb(0, 153, 255);
-    color:rgb(255, 255, 255);
+    background: var(--notif-blue);
+    color:var(--primary-clr);
     width: 1.7rem;
-    border: 2px solid black;
+    border: 2px solid var(--primary-bg);
     border-radius: 50%;
 }
 
@@ -70,16 +70,16 @@
     position: absolute;
     right: -12px;
     top: 0;    
-    background:rgb(0, 153, 255);
-    color:rgb(255, 255, 255);
+    background: var(--notif-blue);
+    color:var(--primary-clr);
     width: 1.7rem;
-    border: 2px solid black;
+    border: 2px solid var(--primary-bg);
     border-radius: 50%;
 }
 
 /* badge-avatar */
 .avatar-badge-image{
-    background: white;
+    background: var(--primary-clr);
     border-radius: 50%;
     width: 4rem;
 }
@@ -91,10 +91,10 @@
     position: absolute;
     right: -12px;
     top: 0;
-    background:rgb(0, 153, 255);
-    color:rgb(255, 255, 255);
+    background: var(--notif-blue);
+    color:var(--primary-clr);
     width: 1.7rem;
-    border: 2px solid black;
+    border: 2px solid var(--primary-bg);
     border-radius: 50%;
 }
 
@@ -108,20 +108,20 @@
     width: 1rem;
     height: 1rem;
     border-radius: 50%;
-    border: 2px solid black;
+    border: 2px solid var(--primary-bg);
     position: absolute;
     bottom: 5px;
     right: 2px;
 }
 .badge.profile-success>.badge-activity{
-    background-color: greenyellow;
+    background-color: var(--activity-success);
 }
 .badge.profile-error>.badge-activity{
-    background-color: #DC2625;
+    background-color: var(--activity-error);
 }
 .badge.profile-warning>.badge-activity{
-    background-color: #F59E0B;
+    background-color: var(--activity-warning);
 }
 .badge.profile-awol>.badge-activity{
-    background-color: rgb(150, 150, 150);
+    background-color: var(--activity-awol);
 }

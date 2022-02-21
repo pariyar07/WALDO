@@ -20,28 +20,28 @@
 .round-avatar .extra-large-image{
     width: 8rem;
     height: 8rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 50%;
 }
 
 .round-avatar .large-image{
     width: 7rem;
     height: 7rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 50%;
 }
 
 .round-avatar .medium-image{
     width: 5.8rem;
     height: 5.8rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 50%;
 }
 
 .round-avatar .small-image{
     width: 3.5rem;
     height: 3.5rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 50%;
 }
 
@@ -49,27 +49,27 @@
 .square-avatar .extra-large-image{
     width: 8rem;
     height: 8rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 5px;
 }
 
 .square-avatar .large-image{
     width: 7rem;
     height: 7rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 5px;
 }
 
 .square-avatar .medium-image{
     width: 5.8rem;
     height: 5.8rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 5px;
 }
 
 .square-avatar .small-image{
     width: 3.5rem;
     height: 3.5rem;
-    background-color: white;
+    background-color: var(--primary-clr);
     border-radius: 5px;
 }

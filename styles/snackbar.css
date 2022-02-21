@@ -18,26 +18,26 @@
 
 .button-container>button {
     border: none;
-    background-color: white;
-    color: rgb(0, 0, 0);
+    background-color: var(--primary-clr);
+    color: var(--primary-bg);
     padding: 0.5rem;
     border-radius: 5px;
     transition: 0.5s;
 }
 .button-container>button:hover{
-    background-color: rgb(100, 100, 100);
-    color: rgb(255, 255, 255);
+    background-color: var(--primary-clr-hover);
+    color: var(--primary-clr);
 }
 
 .button-container>button.clicked{
-    background-color: rgb(100, 100, 100);
+    background-color: var(--primary-clr-hover);
 }
 
 .snackbar {
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--primary-clr);
+    color: var(--primary-bg);
     padding: 10px 20px;
     gap: 3rem;
     align-items: center;
@@ -49,12 +49,12 @@
 .snackbar>button{
     border: none;
     background: transparent;
-    color: rgb(0, 0, 0);
+    color: var(--primary-bg);
     font-size: 1rem;
 }
 
 .snackbar>button>i{
-    color: rgb(0, 0, 0);
+    color: var(--primary-bg);
     margin-left: 30px
 }
 
@@ -62,8 +62,8 @@
     position: absolute;
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--primary-clr);
+    color: var(--primary-bg);
     padding: 10px 20px;
     gap: 3rem;
     bottom: 3%;
@@ -78,8 +78,8 @@
     left: 3%;
     display: flex;
     flex-direction: row;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--primary-clr);
+    color: var(--primary-bg);
     padding: 10px 20px;
     gap: 3rem;
     align-items: center;
@@ -92,8 +92,8 @@
     bottom: 3%;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: var(--primary-clr);
+    color: var(--primary-bg);
     padding: 10px 20px;
     gap: 1rem;
     align-items: flex-end;

@@ -32,7 +32,7 @@
 @media screen and (max-width: 500px) {
     .image-responsive{
         padding: 5px 20px;
-        background-color: rgb(85, 85, 85);
+        background-color: var(--primary-clr-hover);
         border-radius: 5px;
     }
 

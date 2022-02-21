@@ -11,7 +11,7 @@
 .textarea-container{
     display: flex;
     flex-direction: column;
-    background-color: #171717;
+    background-color: var(--secondary-bg);
     min-height: 300px;
     width: 500px;
     padding: 1rem 1.2rem;
@@ -26,11 +26,11 @@
     border-radius: 5px;
     padding: 1rem 1.2rem;
     outline: none;
-    background-color: rgb(225, 225, 225);
-    color: black;
+    background-color: var(--primary-clr);
+    color: var(--primary-bg);
 }
 ::placeholder{
-    color: #000000;
+    color: var(--primary-bg);
 }
 
 .btn-submit{ 
@@ -43,8 +43,8 @@
 }
 
 .btn-submit:hover{
-    background-color:#666666;
-    color:rgb(255, 255, 255);
+    background-color: var(--primary-clr-hover);
+    color:var(--primary-clr);
 }
 
 
@@ -58,7 +58,7 @@
 }
 
 .sign-in-container {
-    background-color: #fff;
+    background-color: var(--primary-clr);
     border-radius: 5px;
     overflow: hidden;
     width: 500px;
@@ -66,11 +66,11 @@
 }
 
 .header{
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #f0f0f0;
+    background-color: var(--placeholder-clr);
+    border-bottom: 1px solid var(--primary-clr);
     padding: 20px 40px;
     text-align: center;
-    color: rgb(0, 0, 0);
+    color: var(--primary-bg);
 }
 
 .header h2{
@@ -93,7 +93,7 @@
 }
 
 .form-control input{
-    border: 2px solid #f0f0f0;
+    border: 2px solid var(--placeholder-clr);
     border-radius: 4px;
     display: block;
     font-family: inherit;
@@ -103,11 +103,11 @@
 }
 
 .form-control.success input{
-    border: 1px solid #2ecc71;
+    border: 1px solid var(--activity-success);
 }
 
 .form-control.error input{
-    border: 1px solid #e74c3c;
+    border: 1px solid var(--activity-error);
 }
 
 .form-control i{
@@ -119,11 +119,11 @@
 
 .form-control.success i#suc{
     visibility: visible;
-    color: #2ecc71;
+    color: var(--activity-success);
 }
 
 .form-control.error i#err{
-    color: #e74c3c;
+    color: var(--activity-error);
     visibility: visible;
 }
 
@@ -136,12 +136,12 @@
 
 .form-control.error small{
     visibility: visible;
-    color: #e74c3c;
+    color: var(--activity-error);
 }
 
 .form button{
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: var(--primary-bg);
+    color: var(--primary-clr);
     border: none;
     padding: 10px;
     font-family: inherit;
@@ -164,5 +164,5 @@
 }
 
 .js-link>a:hover{
-    color: #999999;
+    color: var(--primary-clr-hover);
 }

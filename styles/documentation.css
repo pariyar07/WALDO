@@ -41,7 +41,7 @@ header {
     transition: 0.5s;
 }
 #aside-navbar a:hover{
-    color:rgb(70, 70, 70)
+    color: var(--primary-clr-hover);
 }
 
 #main-doc {
@@ -62,4 +62,11 @@ header {
 
 #main-doc h1{
     margin: 1rem 0;
+}
+
+.doc-link{
+    color: var(--primary-clr-hover);
+}
+.doc-link:hover{
+    color: var(--primary-clr);
 }

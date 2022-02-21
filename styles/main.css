@@ -38,6 +38,33 @@ a {
     text-decoration: none;
 }
 
+:root {
+    --primary-clr: #ffffff;
+    --primary-bg: #000000;
+    --code-bg: #252525;
+    --primary-clr-hover: #909090;
+    --secondary-bg: #171717;
+    --badge-bg: #0099ff;
+    --placeholder-clr: #c8c8c8;
+    --liked-clr: #FF0000;
+    --success-light: #a8f0c6;
+    --success-dark: #0b7035;
+    --info-light: #88C2DF;
+    --info-dark: #14455e;
+    --warning-light: #FACC14;
+    --warning-dark: #5e4b00;
+    --danger-light: #ff615c;
+    --danger-dark: #530300;
+    --notif-blue: #0099ff;
+    --activity-success: #adff2f;
+    --activity-error: #DC2625;
+    --activity-warning: #F59E0B;
+    --activity-awol: #969696;
+    --secondary-btn-light: #ffff00;
+    --secondary-btn-dark: #caca00;
+    --badge-clr: #e67a00;
+}
+
 /* 
 @media only screen and (max-width: 815px) {
     #navbar ul {

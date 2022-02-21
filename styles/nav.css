@@ -3,7 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: rgb(0, 0, 0);
+    background: var(--primary-bg);
     width: 100vw;
     position: fixed;
     top: 0;
