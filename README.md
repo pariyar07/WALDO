@@ -24,12 +24,15 @@ Copy-paste the below code in the `<head>` section of your HTML files to load pre
 
 ### Import in the `<head>` of HTML file:
 
+```HTML
 <link rel ="stylesheet" href = "https://waldo-ui.netlify.app/styles/main.css" />
-
+```
 
 ### Import in your main CSS stylesheet:
 
+```CSS
 @import url("https://waldo-ui.netlify.app/styles/main.css");
+```
 
 ## Components provided
 
