@@ -15,6 +15,7 @@
 @import "./modal.css";
 @import "./rating.css";
 @import "./snackbar.css";
+@import "./grid.css";
 
 *,
 ::before,

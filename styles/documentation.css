@@ -17,11 +17,11 @@ header {
     font-size: 1.8rem;
 }
 
-#aside-navbar ul {
+#aside-navbar>ul {
     display: flex;
     flex-direction: column;
     height: 88%;
-    padding: 0;
+    padding: 2rem 0;
     overflow-y: auto;
     overflow-x: hidden;
     gap: 2rem;
