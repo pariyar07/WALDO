@@ -1,4 +1,13 @@
-# WALDO
+<h1 align="center">
+  <br />
+  <a href="https://waldo-ui.netlify.app/">
+      <img src="./assets/images/logo-cl.png" alt="WALDO" width="200"></a>
+  <br />
+  WALDO
+</h1>
+<h3 align="center">
+    Make your website come to life with WALDO.
+</h3>
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/pariyar07)
 
