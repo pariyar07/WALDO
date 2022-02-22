@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WALDO | Navigation</title>
+    <link rel="stylesheet" href="../styles/main.css">
+</head>
+
+<body>
+    <nav class="navbar-content">
+        <img class="nav-icon" src="/assets/images/logo-cl.png" alt="">
+        <div class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="./install.html">Installation</a></li>
+            <li><a href="./documentation.html">Documentation</a></li>
+            <li><a href="https://github.com/pariyar07/WALDO">Contribute <i class="fab fa-github"></i></a></li>
+        </div>
+    </nav>
+    <aside id="aside-navbar">
+        <ul>
+            <li><a class="nav-link" href="./avatar.html">Avatar</a></li>
+            <li>
+                <a class="nav-link" href="./alert.html">Alert</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./badge.html">Badge</a>
+            </li>
+            <li><a class="nav-link" href="./button.html">Button</a></li>
+            <li><a class="nav-link" href="./card.html">Card</a></li>
+            <li>
+                <a class="nav-link" href="./image.html">Image</a>
+            </li>
+            <li><a class="nav-link" href="./input.html">Input</a></li>
+            <li>
+                <a class="nav-link" href="./modal.html">Modal</a>
+            </li>
+            <li><a class="nav-link" href="./rating.html">Rating</a></li>
+            <li>
+                <a class="nav-link" href="./snackbar.html">Snackbar</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./grid.html">Grid</a>
+            </li>
+            <li>
+                <a class="nav-link" href="./list.html">List</a>
+            </li>
+            <li style="padding-left: 1rem; font-size: 1.5rem; background: #171717; border-radius: 8px;">
+                <a class="nav-link" href="#">Navigation</a>
+            </li>
+        </ul>
+    </aside>
+    <main id="main-doc">
+        <div class="alert main-container">
+            <h1>NAVIGATION</h1>
+            <p>Documentation and examples for WALDO’s powerful, responsive navigation header, the navbar. Includes support for branding, navigation, and more, including support for our collapse plugin.</p>
+            <div>
+                <h2>Desktop Navigation</h2>
+                <p>Navbars come with built-in support for a handful of sub-components. Choose from the following such as brand, search, categories option, collapse bar, etc,.
+                    You can copy html part from below code snippet.</p>
+            </div>
+            <div>
+                <h2>Code Example</h2>
+                <code
+                    class="code-text"><span><</span>header class="navigation-content">
+                        <span><</span>a href="#"><span><</span>h1 class="navigation-title">WALDO Store<span><</span>/h1><span><</span>/a>
+                        <span><</span>div class="navigation-container-search">
+                            <span><</span>select>
+                                <span><</span>option value="">All Category<span><</span>/option>
+                                <span><</span>option value="">Fuel<span><</span>/option>
+                                <span><</span>option value="">Engines<span><</span>/option>
+                                <span><</span>option value="">Fins<span><</span>/option>
+                            <span><</span>/select>
+                            <span><</span>input type="search" placeholder="Search for an item..." id="search">
+                            <span><</span>a href=""><span><</span>i class="fa fa-search"><span><</span>/i><span><</span>/a>
+                        <span><</span>/div>
+                        <span><</span>nav class="navigation-list">
+                            <span><</span>li><span><</span>a href="#"><span><</span>i class="fas fa-rocket"><span><</span>/i><span><</span>/a>
+                                <span><</span>p>Store<span><</span>/p>
+                            <span><</span>/li>
+                            <span><</span>li>
+                                <span><</span>div class="badge num-notification">
+                                    <span><</span>a href="#"><span><</span>i class="fa fa-bell"><span><</span>/i><span><</span>/a>
+                                <span><</span>/div>
+                                <span><</span>p>Wishlist<span><</span>/p>
+                            <span><</span>/li>
+                            <span><</span>li>
+                                <span><</span>div class="badge num-cart">
+                                    <span><</span>a href="#"><span><</span>i class="fa fa-shopping-cart"><span><</span>/i><span><</span>/a>
+                                <span><</span>/div><span><</span>/i><span><</span>/a>
+                                <span><</span>p>Cart<span><</span>/p>
+                            <span><</span>/li>
+                            <span><</span>li><span><</span>div class="dropdown">
+                                <span><</span>button class="dropbtn">Account
+                                    <span><</span>i class="fa fa-caret-down"><span><</span>/i>
+                                <span><</span>/button>
+                                <span><</span>div class="dropdown-content">
+                                    <span><</span>a href="#">Sign Up<span><</span>/a>
+                                    <span><</span>a href="#">Sign In<span><</span>/a>
+                                    <span><</span>a href="#">Log Out<span><</span>/a>
+                                <span><</span>/div>
+                            <span><</span>/div>
+                            <span><</span>/li>
+                        <span><</span>/nav>
+                    <span><</span>/header>
+                </code>
+            </div>
+            <div class="navigation-container">
+                <header class="navigation-content">
+                    <a href="#"><h1 class="navigation-title">WALDO Store</h1></a>
+                    <div class="navigation-container-search">
+                        <select>
+                            <option value="">All Category</option>
+                            <option value="">Fuel</option>
+                            <option value="">Engines</option>
+                            <option value="">Fins</option>
+                        </select>
+                        <input type="search" placeholder="Search for an item..." id="search">
+                        <a href="#"><i class="fa fa-search"></i></a>
+                    </div>
+                    <nav class="navigation-list">
+                        <li><a href="#"><i class="fas fa-rocket"></i></a>
+                            <p>Store</p>
+                        </li>
+                        <li>
+                            <div class="badge num-notification">
+                                <a href="#"><i class="fa fa-bell"></i></a>
+                            </div>
+                            <p>Wishlist</p>
+                        </li>
+                        <li>
+                            <div class="badge num-cart">
+                                <a href="#"><i class="fa fa-shopping-cart"></i></a>
+                            </div></i></a>
+                            <p>Cart</p>
+                        </li>
+                        <li><div class="dropdown">
+                            <button class="dropbtn">Account
+                                <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Sign Up</a>
+                                <a href="#">Sign In</a>
+                                <a href="#">Log Out</a>
+                            </div>
+                        </div>
+                        </li>
+                    </nav>
+                </header>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
