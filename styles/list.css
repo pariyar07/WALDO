@@ -1,0 +1,42 @@
+.list-container {
+    background-color: var(--secondary-bg);
+    width: 700px;
+}
+
+/* basic list */
+.list-group-item {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 1rem;
+}
+
+.list-group-item>li{
+    list-style: none;
+    border: 1px solid var(--primary-clr-hover);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+/* active list */
+.active{
+    background-color: var(--notif-blue);
+    border: 1px solid var(--notif-blue);
+}
+
+/* disabled list */
+.disabled{
+    color: var(--primary-clr-hover);
+    border: 1px solid var(--activity-awol);
+}
+
+/* badge list */
+.badge{
+    display: flex;
+    justify-content: space-between;
+}
+.badge>span{
+    background-color: var(--notif-blue);
+    text-align: center;
+    width: 1.5rem;
+    border-radius: 50%;
+}
