@@ -9,7 +9,7 @@
     margin-top: 7rem;
 }
 
-header {
+h1 {
     padding: 10px 30px;
     background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
@@ -55,12 +55,12 @@ header {
     gap: 2rem;
 }
 
-#main-doc header {
+#main-doc h1 {
     text-align: center;
     margin: 0px;
 }
 
-#main-doc h1{
+#main-doc h2{
     margin: 1rem 0;
 }
 
