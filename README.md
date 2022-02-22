@@ -46,6 +46,8 @@ Copy-paste the below code in the `<head>` section of your HTML files to load pre
 - Modal
 - Rating
 - Snackbar
+- Grid
+- List
 
 # Tech Stack
 - HTML
