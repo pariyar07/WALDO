@@ -48,6 +48,8 @@ Copy-paste the below code in the `<head>` section of your HTML files to load pre
 - Snackbar
 - Grid
 - List
+- Navigation
+- Text
 
 # Tech Stack
 - HTML
