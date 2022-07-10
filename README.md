@@ -49,7 +49,7 @@ Copy-paste the below code in the `<head>` section of your HTML files to load pre
 - Grid
 - List
 - Navigation
-- Text Utilities
+- Text
 
 # Tech Stack
 - HTML
